@@ -1,0 +1,59 @@
+Question 1
+----------
+
+    Describe a "test plan" for the various implementations of calc.  Given
+    that a program cannot be tested on every possible input, what are three
+    examples of tests that are implied by the spec but not checked by
+    test_3_4.sh?
+
+
+Answer 1
+--------
+The tests that I tested that art provided in the spec, but not by test_3_4.sh are integers can't start with 0 unless it's 0, integers can have one 
+"+" or "-" and no more then that and intgers can't be less then -512 or 512. The first test I did for integers can't start with 0 is I tested all 
+possible outcomes and testing the cat programs. Afterwards, I put '007 7', '7 007' and '007 007' and I create 3 tests seperately for each one
+like left input, right input and both inputs. 
+
+My second test for "+" and "-", "-" I created 3 seperate tests for the left input, right input 
+and both inputs and I did same for "+" and created 3 seperate tests.
+ex: '-7, 3' 5, -3' '-2, -2' 
+ex for "+": '+3, 4' '3, +4' '+3, +4'
+
+For my third test, I basically add random numbers between -512 and 512 and I test adding -512 + 512 is okay and results to 0. 
+However, I tested if either inputs have less then -512 or greater then 512 and if it was, it would say "TOO BIG" as an argument
+ex: -513 + 1 = "TOO BIG"
+ex: 500 + 513 = "TOO BIG"
+ex: -513 +514 = "TOO BIG"
+I would test each case and have seperate test of each possbility
+
+
+Question 2
+----------
+
+    You may have noticed that the spec says nothing about what to do if the
+    user supplies too many arguments at the command line.  (Unfortunately,
+    ambiguity in specifications is very common in practice and can be very
+    confusing for programmers.)
+
+    If you were asked to implement calc given this spec, you would be
+    forced to choose from among at least three interpretations of what calc
+    would do when called as, say, 
+
+        ./calc 3 4 5
+
+    1. Calc should sum all of the arguments (and print 12).
+
+    2. Calc should ignore the third argument (and print 7).
+
+    3. Calc should print an error message and return non-zero.
+
+    Below, state whether your test scripts check what calc does when given
+    more than two arguments.  Explain why you wrote your scripts that way.
+
+
+Answer 2
+--------
+If I was given 3 arguments, Calc should print an error messagge and return non-zero. If I wrote it in my scripts, the expected output would be 
+"TOO MANY ARGUMENTS" and give an error message and return non-zero.
+
+
