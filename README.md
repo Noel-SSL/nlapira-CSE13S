@@ -1,5 +1,7 @@
 # CSE13S-01 Spring 2026
 
+* Note this is made by Professor Veenstra
+
 ## Assignment Directories
 
 All work for an assignment must go into that assignment's corresponding folder. During
@@ -47,4 +49,8 @@ use the pipeline according to directions, you will be fine. But woe unto you if 
 *anything* deliberate, which would be a clear and intentional violation of Sections
 102.011, 102.014, 102.015, and 102.05 of the
 [UCSC Policy on Student Conduct and Discipline](https://deanofstudents.ucsc.edu/student-conduct/student-handbook/100.003.pdf).
+
+#My thoughts after CSE 13S
+
+These are all assignments made by my Professor and other TAs.  During these assignments, I learned a lot about just general terms of coding, but also how code is in other languages. Learning about Makefiles, bash scripts, different functions and embedded systems impacted my thinking. I felt like there's a lot to uncover, but otherwise I felt like CSE 13S impacted in a way that I want to explore new skills and made me impacted in my critical thinking skills when it comes to coding. 
 
