@@ -1,6 +1,6 @@
 # CSE13S-01 Spring 2026
 
-* Note this is made by Professor Veenstra
+* Note these assignments instructions are made by Professor Veenstra 
 
 ## Assignment Directories
 
